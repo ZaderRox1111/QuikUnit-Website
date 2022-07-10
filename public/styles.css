@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  background-color: var(--theme-background);
+  color: var(--theme-white);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+  --theme-white: #F8F8FF;
+  --theme-primary: #F57C00;
+  --theme-primary-lighter: #FF9933;
+  --theme-secondary: #0A0326;
+  --theme-secondary-lighter: #18095D;
+  --theme-background: #121212;
+  --theme-gray: #BFBFBF;
+  --theme-light-gray: #BBBBBB;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.quikunit {
+  color: var(--theme-primary);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 54pt;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.qulogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 25px 50px;
+  border-bottom: 1px solid var(--theme-white);
+}
+
+.value-prop {
+  margin: 0;
+  padding: 5px;
+  font-weight: 400;
+}
