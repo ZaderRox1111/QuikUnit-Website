@@ -4,8 +4,7 @@ body {
   background-color: var(--theme-background);
   color: var(--theme-white);
   width: 100%;
-  display: flex;
-  justify-content: center;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
 
@@ -19,16 +18,23 @@ body {
   --theme-light-gray: #BBBBBB;
 }
 
+.block1 {
+  margin: 10vw;
+  height: 100vh;
+}
+
 .logo {
   margin: 0;
   padding: 0;
+  max-width: 10vh;
+  max-height: 10vh;
 }
 
 .quikunit {
   color: var(--theme-primary);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 54pt;
+  font-size: 10vh;
   margin: 0;
   padding-right: 20px;
 }
@@ -39,9 +45,24 @@ body {
   justify-content: center;
 }
 
+.navbar {
+  width: 100%;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar ul {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+
 .title {
   text-align: center;
   margin: 0;
+  font-size: 1.75vh;
   padding: 25px 50px;
   border-bottom: 1px solid var(--theme-white);
 }
